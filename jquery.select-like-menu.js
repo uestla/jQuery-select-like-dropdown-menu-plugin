@@ -35,6 +35,7 @@ $.fn.extend({
 		console.log($placeholder);
 		$placeholder.children().first().hover(over, out);
 		$this.hover(over, out).css('position', 'absolute').before( $placeholder ).hide();
+		return $this;
 	}
 });
 
