@@ -32,7 +32,6 @@ $.fn.extend({
 			over = function () { $this.show(); },
 			out = function () { $this.hide(); };
 
-		console.log($placeholder);
 		$placeholder.children().first().hover(over, out);
 		$this.hover(over, out).css('position', 'absolute').before( $placeholder ).hide();
 		return $this;
