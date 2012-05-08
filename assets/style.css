@@ -27,7 +27,7 @@
 	border-bottom: 1px solid #000;
 }
 
-#menu > li > a:hover {
+#menu > li > a:hover, #menu > li > a:focus {
 	background: #eee;
 }
 
