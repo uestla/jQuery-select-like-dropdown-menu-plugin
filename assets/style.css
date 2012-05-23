@@ -13,12 +13,12 @@
 #menu > li > a, .menu-placeholder > a {
 	display: block;
 	width: 196px;
-	height: 32px;
-	line-height: 32px;
+	height: 28px;
+	line-height: 28px;
 	text-indent: 8px;
 	text-decoration: none;
-	background: #030f1a;
-	color: #fff568;
+	background: #eee;
+	color: #444;
 
 	box-sizing: border-box;
 	-webkit-box-sizing:border-box;
@@ -27,24 +27,22 @@
 }
 
 #menu > li > a {
-	border: 1px solid #000;
+	border: 1px solid #888;
 	border-top: 0;
 	border-bottom: 0;
 }
 
 #menu > li:last-child {
 	color: navy;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #888;
 }
 
 #menu > li > a:hover, #menu > li > a:focus, #menu > li > a.active {
-	background: #000;
-	text-decoration: underline;
+	background: #bbb;
 }
 
 .menu-placeholder > a {
 	padding-right: 32px;
-	background: #030f1a url('menu-bg.png') no-repeat 100% 50%;
-	border-bottom: 1px solid rgba(255, 245, 104, 0.5);
-	color: #fff568;
+	background: #eee url('menu-bg.png') no-repeat 100% 50%;
+	border: 1px solid #777;
 }
