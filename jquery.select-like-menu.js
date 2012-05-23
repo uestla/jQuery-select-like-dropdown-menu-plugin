@@ -27,7 +27,8 @@ $.fn.extend({
 				activeSelector: '.active'
 			}, o);
 
-		var $active = $this.children( options.activeSelector ).first(),
+		var $activeTry = $this.children( options.activeSelector ).first(),
+			$active = $activeTry.length ? $activeTry : $this.children().first(),
 			$placeholder = $( options.placeholder ).html( $active.clone().html() ),
 			over = function () {
 				var $item = $(this);
