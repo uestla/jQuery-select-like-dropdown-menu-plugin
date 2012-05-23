@@ -37,7 +37,7 @@
 	border-bottom: 1px solid #888;
 }
 
-#menu > li > a:hover, #menu > li > a:focus, #menu > li > a.active {
+#menu > li > a:hover, #menu > li > a:focus, #menu > li.active > a {
 	background: #bbb;
 }
 
